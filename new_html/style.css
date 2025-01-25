@@ -1,0 +1,94 @@
+body{
+    border: 2px solid blue;
+    margin: 0;
+    padding: 0;
+}
+.india{
+    display: inline;
+}
+h1{
+    display: inline;
+    /* width: 150px; */
+    color: #ffffff ;
+    padding: 50px;
+    border: 2px groove red;
+    font-size: 8rem;
+    outline-style:solid ;
+    outline-color: #79eb0d;
+    outline-width:5px;
+    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+
+
+}
+h1:hover{
+    /* display: flex; */
+    /* width: 150px; */
+    color: #0ae0f8 ;
+    padding: 50px;
+    border: 2px groove red;
+    font-size: 8rem;
+    outline-style:solid ;
+    outline-color: #eb0de7;
+    outline-width:5px;
+    text-shadow: 5px 5px 15px rgb(8, 38, 235);
+
+
+}
+
+span{
+    display: block;
+    color: #ffffff ;
+    padding: 50px;
+    border: 2px groove red;
+    font-size: 8rem;
+    outline-style:solid ;
+    outline-color: #79eb0d;
+    outline-width:5px;
+    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+
+
+}
+span:hover{
+/* display: flex; */
+width: 150px;
+color: #0a12f8 ;
+padding: 50px;
+border: 2px groove red;
+font-size: 8rem;
+outline-style:solid ;
+outline-color: #2eeb0d;
+outline-width:5px;
+text-shadow: 5px 5px 15px rgb(235, 8, 8);
+background-color: black;
+
+
+}
+
+.deepak_bhai{
+    border: 2px solid  red;
+    height: 500px;
+    width: 500px;
+    /* background-color: yellow; */
+    background-image: url(/new_html/Image/car.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    border-radius: 50%;
+    outline-style:solid ;
+    outline-color: #79eb0d;
+    outline-width:5px;
+
+
+}
+p{
+    width: 50%;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    /* word-spacing: 120px; */
+    letter-spacing: 100px;
+
+
+
+}

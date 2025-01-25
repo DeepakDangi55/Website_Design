@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+</head>
+<style>
+     /* .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    } */
+
+    .container span{
+        display: none;
+        visibility: hidden;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        border: 2px solid red;
+
+
+    }
+ 
+     .box1{
+        border: 2px solid red;
+        height: 200px;
+        width: 200px;
+     }
+     #car{
+        display: block;
+        visibility: hidden;
+     }
+</style>
+<body>
+    <div class="container">
+
+        <span>asdf</span>
+        <span>asdf</span>
+        <span>asdf</span>
+        <span>asdf</span>
+        <span>asdf</span>
+
+
+       <div class="box1">hello</div>
+       <div class="box1" id="car">car</div>
+       <div class="box1">rohan</div>
+       <div class="box1">jet</div>
+       
+
+    </div>
+</body>
+</html>

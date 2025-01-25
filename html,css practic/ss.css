@@ -1,0 +1,116 @@
+body{
+    background-image: url("car.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    /* border: 2px solid red; */
+    margin: 20px;
+    padding: 20px;
+}
+
+p{
+    color: brown;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Playwrite HR Lijeva", cursive;
+}
+#heading3{
+    color: red;
+    font-size: 5rem;
+    font-family: "Playwrite HR Lijeva", cursive;
+    text-align: center;
+
+
+
+}
+/* #heading3:hover{
+    color: rgb(220, 131, 19);
+
+    font-size: 8rem;
+    font-family: "Playwrite HR Lijeva", cursive;
+    text-align: center;
+    border: 20px Groove yellow;
+
+
+
+} */
+#heading7{
+    color: red;
+    font-size: 100px;
+    /* border: 2px solid green; */
+    background-color: aqua;
+
+
+
+    
+
+
+}
+.heading{
+    color: green;
+    cursor: pointer;
+
+}
+
+#car1{
+    height: 20rem;
+    width: 40rem;
+    /* border: 2px solid red; */
+    
+}
+.aa{
+    /* border: 12px solid yellow; */
+}
+
+.aa h1{
+    text-align: center;
+    color: red;
+    font-size: 4rem;
+}
+.aa{
+    background-color: blue;
+    background-image: url("car.webp");
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment: scroll;
+
+
+
+}
+
+.box{
+    height: 500px;
+    width: 800px;
+    /* border: 2px solid red; */
+    background-image: url("car.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.txt p{
+    border: 2px solid red;
+    padding-top: 30px;
+    width: 250px;
+    height: 20%;
+    overflow: scroll;
+    padding: 20px;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform:none;
+    text-shadow: 2px 2px 8px red;
+    word-spacing: 40px;
+    letter-spacing: 40px;
+    text-decoration: line-through;
+    /* margin: 40px; */
+    
+}
+.txt{
+    border: 5px solid green;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

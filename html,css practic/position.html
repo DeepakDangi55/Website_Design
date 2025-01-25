@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        border: 5px solid red;
+    }
+    .box{
+     
+        height: 150px;
+        width: 150px;
+        background-color: aqua;
+        padding: 20px;
+        margin: 20px;
+
+    }
+    .box1{
+        /* position: relative;
+        left: 150px;
+        top: -150px; */
+
+        /* position: absolute; */
+        /* left: 150px; */
+        /* left: 150px; */
+        /* top: 50px; */
+
+        position: fixed;
+        /* left: 150px; */
+        right: 2px;
+        bottom: 2px;
+        /* top: 50px; */
+
+        height: 150px;
+        width: 150px;
+        /* background-color: transparent; */
+        border: 2px solid red;
+        padding: 20px;
+        margin: 20px;
+        
+    }
+    .box1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .box2{
+        height: 150px;
+        width: 150px;
+        background-color: aqua;
+        padding: 20px;
+        margin: 20px;
+      
+    }
+    #box{
+        position: sticky;
+        background-color: blue;
+        top: 5px;
+    }
+</style>
+<body>
+    <h1 style="text-align: center;">Use Position</h1>
+
+    <div class="box1"><img src="car.webp" alt=""></div>
+    <div class="box">box 1</div>
+    <div class="box2">box 3</div>
+    <div class="box" id="box">box 1</div>
+    <div class="box2">box 3</div>
+    <div class="box">box 1</div>
+    <div class="box2">box 3</div>
+    <div class="box">box 1</div>
+    <div class="box2">box 3</div>
+    <div class="box">box 1</div>
+    <div class="box2">box 3</div>
+    <div class="box">box 1</div>
+    <div class="box2">box 3</div>
+
+</body>
+</html>
